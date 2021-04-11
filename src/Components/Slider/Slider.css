@@ -1,0 +1,48 @@
+.slider-main {
+    height: auto;
+}
+
+.main-flex-slider {
+    display: flex;
+    overflow-x: auto;
+    min-height: 500px;
+}
+
+.main-flex-slider div {
+    border: 1px solid rgb(196, 194, 194);
+    min-width: 340px;
+    height: 340px;
+    margin-right: 3rem;
+    border: 1px solid red;
+}
+
+.main-flex-slider::-webkit-scrollbar {
+    height: 10px;
+    color: gray;
+}
+
+/* width */
+
+.main-flex-slider::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+.main-flex-slider::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+.main-flex-slider::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+.main-flex-slider::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}

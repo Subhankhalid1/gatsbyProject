@@ -1,0 +1,42 @@
+.img-star-resp {
+    width: 125px;
+    height: 150px;
+}
+
+.main-testimonial {
+    width: 33.333%;
+}
+
+.border-setting {
+    width: 100%!important;
+    padding-left: 4rem!important;
+}
+
+.p-div {
+    width: 120%!important;
+    height: 75px;
+    overflow: hidden;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .testi-flex {
+        flex-direction: column;
+    }
+    .main-testimonial {
+        width: 100%;
+        margin: auto;
+        padding-right: 1rem;
+    }
+    .border-setting {
+        flex-direction: row!important;
+    }
+    .img-star-resp {
+        width: 125px;
+        height: 125px;
+    }
+    .p-div {
+        width: 100%!important;
+        height: 75px;
+        overflow: hidden;
+    }
+}

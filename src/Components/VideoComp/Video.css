@@ -1,0 +1,154 @@
+.video{
+   width: 100%;
+   height: auto;
+   padding: 0%!important;
+   margin: auto;
+}
+
+.position-relative{
+  position: relative!important;
+}
+
+
+.component{
+  position: absolute;
+  z-index: 999;
+height: 53%;
+width: 62%;
+top:21%;
+left: 50%;
+transform: translateY(-50%);
+transform: translateX(-50%);
+
+
+}
+
+@media (min-width:0px) and (max-width:767px) {
+  .component{
+    position: absolute;
+    z-index: 999;
+  height: 53%;
+  width: 62%;
+  top:21%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  
+  
+  }
+
+  .video{
+    height: 40rem!important;
+  }
+
+  .position-relative{
+    width: 100%;
+    height: 50%;
+  }
+}
+
+/* .cover{
+    background-image: url('https://media.istockphoto.com/photos/silver-laptop-picture-id483803142?k=6&m=483803142&s=612x612&w=0&h=jm7qKgUucumsv-_sQw3g4nyJ2BmfRxl9s2_oU8RM1_8=');
+} */
+
+
+/* @media only screen and (min-width: 1000px) {
+    .video {
+        
+        height: 1000px;
+        margin: auto;
+        align-self: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .video {
+        
+        height: 600px;
+        margin: auto;
+        align-self: center;
+        align-items: center;
+    }
+  }
+  
+@media only screen and (min-width: 400px) {
+    .video {
+        
+        min-height: 400px;
+        margin-left: 5%;
+        margin: auto;
+        align-self: center;
+        align-items: center;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .video {
+        
+        height: 1200px;
+        margin: auto;
+        align-self: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .video {
+        
+        height: 768px;
+        margin: auto;
+        align-self: center;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .video {
+        
+        height: 992px;
+        margin: auto;
+         align-self: center;
+        align-items: center;
+    }
+  } */
+
+
+
+
+
+
+
+
+/* 
+  @media only screen and (min-width: 600px) {
+    .component {
+        
+        height: 600px;
+    }
+  }
+  
+@media only screen and (min-width: 300px) {
+    .component {
+        
+        height: 300px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .component {
+        
+        height: 1200px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .component {
+        
+        height: 768px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .component {
+        
+        height: 992px;
+    }
+  } */

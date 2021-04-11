@@ -14,12 +14,27 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/styles": "^4.11.3",
     "gatsby": "^3.2.1",
+    "gatsby-plugin-ffmpeg": "^0.3.1",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
+    "gatsby-plugin-material-ui": "^3.0.0",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
+    "gatsby-transformer-ffmpeg": "^0.3.8",
+    "gatsby-video": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "autoprefixer": "^10.2.5",
+    "gatsby-plugin-postcss": "^4.2.0",
+    "postcss": "^8.2.9",
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.0.4"
   },
   "repository": {
     "type": "git",

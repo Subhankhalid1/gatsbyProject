@@ -1,0 +1,28 @@
+.blog-head {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.p-rel {
+    position: relative;
+    top: 1rem;
+    width: 90%;
+}
+
+.para2 {
+    border-bottom: 1px solid #597263;
+    color: black!important;
+}
+
+.shadowbox {
+    box-shadow: -2px 3px 14px 2px rgba(0, 0, 0, 0.32)!important;
+    -webkit-box-shadow: -2px 3px 14px 2px rgba(0, 0, 0, 0.32)!important;
+    -moz-box-shadow: -2px 3px 14px 2px rgba(0, 0, 0, 0.32)!important;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .blog-head {
+        font-size: 1rem!important;
+        font-weight: 700;
+    }
+}
