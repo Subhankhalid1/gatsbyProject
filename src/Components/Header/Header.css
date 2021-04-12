@@ -104,22 +104,22 @@
 .image {
     position: absolute;
     object-fit: fill;
-    width: 44%;
+    width: 34%;
     height: auto;
 }
 
 .image-height {
-    width: 54%;
+    width: 44%;
     height: auto;
    
 }
 
 .translate {
-    transform: translate(56%);
+    transform: translate(60%);
 }
 
 .translate1 {
-    transform: translate(-56%);
+    transform: translate(-60%);
 }
 
 .bars {
@@ -148,21 +148,20 @@
     height: 5rem;
 }
 
-@media (min-width:0px) and (max-width:1366px) {
+@media (min-width:0px) and (max-width:1320px) {
 
 
     .translate {
-        transform: translate(56%);
+        transform: translate(60%);
     }
     
     .translate1 {
-        transform: translate(-56%);
+        transform: translate(-60%);
     }
 
     .cha-img{
         position: absolute;
-        right: 5px;
-        bottom: 5px;
+       
     }
     .bold-heading {
         font-size:3rem;
@@ -190,12 +189,12 @@ width: 90vw!important;
         padding:3rem 0px;
     }
     .image {
-        width: 75%;
+        width: 55%;
         height:auto;
     }
     .image-height{
         height:auto;
-        width: 95%;
+        width: 70%;
     }
     .header-s2 {
         width: 100%;

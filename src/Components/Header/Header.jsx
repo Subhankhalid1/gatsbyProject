@@ -63,7 +63,7 @@ const Header = () => {
             </header>
             {/* navbar end */}
             <div className=" section-main  w-11/12 m-auto" >
-                <div className="header-s1  text-center" data-sal="slide-left" data-sal-delay="600" data-sal-easing="ease-out-back" >
+                <div className="header-s1  text-center" data-sal="slide-left"  data-sal-easing="easy" >
                 <img className=" image translate" src="/images/abc.png"/>
                 <img  className=" image-height z-10" src="/images/abc.png"/>
                 <img className="image translate1" src="/images/abc.png"/>
@@ -73,7 +73,7 @@ const Header = () => {
                     <img className="image image-height z-10" src="/images/abc.png" alt="" style={{width:'100%',height:'auto'}} />
                     <img className="image translate1" src="/images/abc.png" alt="" style={{width:'100%',height:'auto'}}/>
                 </div> */}
-                <div className=" header-s2  pb-10" data-sal="slide-right" data-sal-delay="800" data-sal-easing="ease-out-back" >
+                <div className=" header-s2  pb-10"   >
                     <p className="paragraph font-bold py-4">When life gives you</p>
                     <h1 className="bold-heading ">RICHBERRY,</h1>
                     <p className="paragraph font-bold py-4">make some</p>
