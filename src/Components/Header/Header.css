@@ -65,7 +65,7 @@
 
 .header-s1 {
     height: 100%!important;
-    width: 60%;
+    width: 55%;
     position: relative;
     text-align: center;
     display: flex;
@@ -77,13 +77,13 @@
 
 .header-s2 {
     width: 40%;
-    padding-left: 4.5rem!important;
+    /* padding-left: 4.5rem!important; */
 }
 
 .bold-heading {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bold;
-    line-height: 3.5rem;
+    line-height: 3rem;
     text-transform: uppercase;
     
 }
@@ -104,12 +104,12 @@
 .image {
     position: absolute;
     object-fit: fill;
-    width: 34%;
+    width: 40%;
     height: auto;
 }
 
 .image-height {
-    width: 44%;
+    width: 50%;
     height: auto;
    
 }
@@ -148,15 +148,15 @@
     height: 5rem;
 }
 
-@media (min-width:0px) and (max-width:1320px) {
+@media (min-width:0px) and (max-width:1356px) {
 
 
     .translate {
-        transform: translate(60%);
+        transform: translate(70%);
     }
     
     .translate1 {
-        transform: translate(-60%);
+        transform: translate(-70%);
     }
 
     .cha-img{
@@ -186,15 +186,17 @@ width: 90vw!important;
     }
     .header-s1 {
         height: 100%;
+        width: 55%;
         padding:3rem 0px;
     }
     .image {
-        width: 55%;
+        width: 40%;
         height:auto;
     }
     .image-height{
         height:auto;
-        width: 70%;
+        width: 40%;
+        width: 50%;
     }
     .header-s2 {
         width: 100%;

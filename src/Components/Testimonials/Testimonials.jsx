@@ -6,8 +6,8 @@ const Testimonials = () => {
     const array = [1, 2, 3];
     return <>
         <div className="py-8">
-            <h1 className="text-center text-2xl font-bold mb-5">TESTIMOLIALS</h1>
-            <div className="flex testi-flex">
+            <h1 className="text-center text-3xl font-bold mb-10 mt-10">TESTIMOLIALS</h1>
+            <div className="flex testi-flex ">
                 {
                     array && array.map((item, index) => {
                         return <section className="text-gray-600 body-font main-testimonial overflow-hidden">

@@ -22,8 +22,8 @@ const Container = () => {
             <RichUse />
             <Blogs />
             <Testimonials />
-            <Slider />
             <Social />
+            <Slider />
             <ShopLinks />
         </div>
     )

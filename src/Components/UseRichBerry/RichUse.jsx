@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './RichUse.css'
 const RichUse = () => {
 
 
@@ -15,8 +15,8 @@ const RichUse = () => {
                     </div>
                     <h1 data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>1</strong></h1>
                     <div data-sal="slide-right" data-sal-delay="1000" data-sal-easing="ease-out-back" class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                      <h3><strong>CLEANSE YOUR PALATE</strong></h3>
-                        <p>
+                      <h3 className="h3"><strong>CLEANSE YOUR PALATE</strong></h3>
+                        <p className="p">
                             Miraculin works best with clean taste buds, so <strong>cleanse your palate</strong> with a little water before digging in.
                     </p>
                         
@@ -26,8 +26,8 @@ const RichUse = () => {
                 <div class="flex items-center  lg:w-4/5 mx-auto pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                 <h1 data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>2</strong></h1>
                     <div data-sal="slide-right" data-sal-delay="1000" data-sal-easing="ease-out-back" class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                      <h3><strong>CLEANSE YOUR PALATE</strong></h3>
-                        <p>
+                      <h3 className="h3"><strong>CLEANSE YOUR PALATE</strong></h3>
+                        <p className="p">
                             Miraculin works best with clean taste buds, so <strong>cleanse your palate</strong> with a little water before digging in.
                     </p>
                       
@@ -48,8 +48,8 @@ const RichUse = () => {
                     </div>
                     <h1 data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>3</strong></h1>
                     <div data-sal="slide-right" data-sal-delay="1000" data-sal-easing="ease-out-back" class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                      <h3><strong>CLEANSE YOUR PALATE</strong></h3>
-                        <p>
+                      <h3 className="h3"><strong>CLEANSE YOUR PALATE</strong></h3>
+                        <p className="p">
                             Miraculin works best with clean taste buds, so <strong>cleanse your palate</strong> with a little water before digging in.
                     </p>
                        
@@ -57,10 +57,10 @@ const RichUse = () => {
                 </div>
                 {/* 4 */}
                 <div class="flex items-center  lg:w-4/5 mx-auto pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-                <h1 data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>4</strong></h1>
+                <h1  data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>4</strong></h1>
                     <div data-sal="slide-right" data-sal-delay="1000" data-sal-easing="ease-out-back" class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                      <h3><strong>CLEANSE YOUR PALATE</strong></h3>
-                        <p>
+                      <h3 className="h3"><strong>CLEANSE YOUR PALATE</strong></h3>
+                        <p className="p">
                             Miraculin works best with clean taste buds, so <strong>cleanse your palate</strong> with a little water before digging in.
                     </p>
                         
@@ -80,8 +80,8 @@ const RichUse = () => {
                     </div>
                     <h1 data-sal="slide-down" data-sal-delay="1000" data-sal-easing="ease-out-back" style={{ color: "black", fontSize: "60px", marginRight: '5%' }}><strong style={{ fontSize: "10rem" }}>5</strong></h1>
                     <div data-sal="slide-right" data-sal-delay="1000" data-sal-easing="ease-out-back" class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                      <h3><strong>CLEANSE YOUR PALATE</strong></h3>
-                        <p>
+                      <h3 className="h3"><strong>CLEANSE YOUR PALATE</strong></h3>
+                        <p className="p">
                             Miraculin works best with clean taste buds, so <strong>cleanse your palate</strong> with a little water before digging in.
                     </p>
                     </div>
